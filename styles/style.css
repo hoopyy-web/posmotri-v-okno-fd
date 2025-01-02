@@ -67,7 +67,6 @@ ol {
   display: grid;
   align-items: end;
   grid-template-columns: 711px 399px;
-  grid-template-rows: 534px;
   grid-template-areas: "result content";
   gap: 30px;
 }
@@ -144,6 +143,7 @@ ol {
 
 .search-form__textfield {
   padding: 0;
+  font-family: inherit;
   color: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -164,7 +164,7 @@ ol {
   outline: 1px solid #fff;
 }
 
-.search-form__textfield:focus, .search-form__label:focus-visible {
+.search-form__textfield:focus {
   outline: none;
 }
 
@@ -250,6 +250,9 @@ ol {
   text-decoration: none;
 }
 
+.content__card-link:active {
+  background-color: #545050;
+}
 .content__card-link:hover {
   text-decoration: underline;
 }
@@ -288,6 +291,7 @@ ol {
   text-transform: uppercase;
   text-overflow: ellipsis;
   overflow: hidden;
+  white-space: nowrap;
 }
 
 .content__video-card-description {
