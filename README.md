@@ -1,1 +1,1 @@
-https://github.com/hoopyy-web/ono-tebe-nado-fd
+https://github.com/hoopyy-web/posmotri-v-okno-fd
