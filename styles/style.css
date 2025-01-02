@@ -246,6 +246,8 @@ ol {
 
 .content__card-link {
   display: block;
+  color: #fff;
+  text-decoration: none;
 }
 
 .content__card-link:hover {
@@ -277,10 +279,6 @@ ol {
 
 /* Ссылка */
 
-.content__card-link {
-  color: #fff;
-  text-decoration: none;
-}
 
 .content__video-card-title {
   font-family: Oswald, sans-serif;
